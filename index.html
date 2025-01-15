@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline';">
+    <title>Yehor Korolov's Resume</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #161b22;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #30363d;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 5px 0 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        h2 {
+            border-bottom: 2px solid #30363d;
+            padding-bottom: 10px;
+        }
+        .links a {
+            color: #58a6ff;
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px 10px 10px 0;
+            padding: 8px 12px;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            transition: background-color 0.3s;
+        }
+        .links a:hover {
+            background-color: #21262d;
+        }
+        .projects, .about, .languages {
+            margin-top: 30px;
+        }
+        .projects .placeholder, .about p, .languages p {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #161b22;
+            border-top: 1px solid #30363d;
+            margin-top: 30px;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            .container {
+                padding: 0 10px;
+            }
+            .links a {
+                margin: 5px;
+                padding: 6px 10px;
+            }
+            .projects .placeholder, .about p, .languages p {
+                padding: 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+            header p {
+                font-size: 0.9rem;
+            }
+            .links a {
+                font-size: 0.9rem;
+                padding: 5px 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Yehor Korolov</h1>
+        <p>Aspiring Programmer | Full-Stack Development | Cybersecurity</p>
+    </header>
+
+    <div class="container">
+        <section class="about">
+            <h2>About Me</h2>
+            <p>I'm 21 years old, studying Software Engineering at ZNTU. I lead an active lifestyle, practice sports, study English, and enjoy nature activities such as hiking, camping, and mountain climbing.</p>
+        </section>
+
+        <section class="links">
+            <h2>Contact</h2>
+            <a href="https://www.linkedin.com/in/egor-korol%D0%BEv-61920a30b/recent-activity/all/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </section>
+
+        <section class="languages">
+            <h2>Languages and Technologies</h2>
+            <p>HTML, CSS, LS - Actively learning</p>
+            <p>React, GIT, NodeJS, Python - Planning to learn</p>
+        </section>
+
+        <section class="projects">
+            <h2>Projects</h2>
+            <div class="placeholder">Project 1 - Coming Soon</div>
+            <div class="placeholder">Project 2 - Coming Soon</div>
+            <div class="placeholder">Project 3 - Coming Soon</div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Yehor Korolov. All rights reserved.</p>
+    </footer>
+</body>
+</html>
